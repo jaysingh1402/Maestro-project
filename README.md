@@ -1016,15 +1016,13 @@ Fix:   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 6. **Regulator-subsector mismatches.** A small number of records in `01_policies.csv` intentionally contain regulator/subsector inconsistencies (e.g., a Regional Bank with FINRA listed as primary regulator). These are data quality exercises for training purposes, not errors to be fixed.
 
-7. **Missing source files.** `01_policies.csv`, `04_questionnaire_responses.csv`, and `05_system_recovery_profiles.csv` may not be present in all repository distributions. All scripts that depend on these files contain graceful fallback logic.
-
 ### Technical Limitations
 
-8. **GLMs retrained on every Streamlit launch.** The models in `app.py` are trained from scratch each time the dashboard starts (they are not loaded from the `.joblib` files). This keeps the interactive pricing engine synchronized with the current feature data at the cost of a 2-3 second startup delay.
+7. **GLMs retrained on every Streamlit launch.** The models in `app.py` are trained from scratch each time the dashboard starts (they are not loaded from the `.joblib` files). This keeps the interactive pricing engine synchronized with the current feature data at the cost of a 2-3 second startup delay.
 
-9. **Gemini API key not persisted.** The API key entered in the dashboard is held in Streamlit session state only and must be re-entered after every app restart.
+8. **Gemini API key not persisted.** The API key entered in the dashboard is held in Streamlit session state only and must be re-entered after every app restart.
 
-10. **Bootstrap TVaR confidence intervals are compute-intensive.** The 500-sample bootstrap in `05_hawkes_process_simulation.py` adds ~30–60 seconds to the Hawkes run time on CPU. The simulation is now seeded (`np.random.seed(42)`) for full reproducibility. To speed up, reduce `N_BOOTSTRAP` in the script from 500 to 100.
+9. **Bootstrap TVaR confidence intervals are compute-intensive.** The 500-sample bootstrap in `05_hawkes_process_simulation.py` adds ~30–60 seconds to the Hawkes run time on CPU. The simulation is now seeded (`np.random.seed(42)`) for full reproducibility. To speed up, reduce `N_BOOTSTRAP` in the script from 500 to 100.
 
 ---
 
