@@ -1,0 +1,130 @@
+{
+  "portfolio_policies": 1500,
+  "total_tiv_usd": 55780000000.0,
+  "num_simulations": 10000,
+  "cat_xs_attachment_usd": 5000000,
+  "cat_xs_limit_usd": 45000000,
+  "scenarios": {
+    "cloud_outage": {
+      "scenario": "Major Cloud Provider Outage",
+      "real_world_basis": "CrowdStrike Falcon 2024 ($5.4B), AWS us-east-1 2021, Cloudflare 2023",
+      "target_providers": [
+        "AWS",
+        "Azure"
+      ],
+      "n_affected_policies": 627,
+      "pct_portfolio": 0.418,
+      "expected_loss_usd": 40167895.0,
+      "pml_90_usd": 45196019.0,
+      "pml_99_usd": 49313992.0,
+      "max_scenario_usd": 57498459.0,
+      "loss_distribution_summary": {
+        "p50": 40103451.0,
+        "p75": 42887427.0,
+        "p90": 45196019.0,
+        "p95": 46658211.0,
+        "p99": 49313992.0
+      },
+      "reinsurance": {
+        "cat_xs_attachment_usd": 5000000,
+        "cat_xs_limit_usd": 45000000,
+        "ri_recovery_at_p99": 44313992.0,
+        "ri_recovery_at_p90": 40196019.0,
+        "treaty_exhausted_p99": false,
+        "treaty_exhausted_p90": false,
+        "net_insurer_pml_99": 5000000.0
+      }
+    },
+    "ransomware_campaign": {
+      "scenario": "Global Ransomware Campaign",
+      "real_world_basis": "WannaCry 2017 ($4-8B), NotPetya 2017 ($10B+), REvil/Kaseya 2021",
+      "avg_pct_affected": 0.18,
+      "expected_loss_usd": 391642984.0,
+      "pml_90_usd": 514105873.0,
+      "pml_99_usd": 598506036.0,
+      "max_scenario_usd": 664146473.0,
+      "loss_distribution_summary": {
+        "p50": 386563771.0,
+        "p75": 453299197.0,
+        "p90": 514105873.0,
+        "p95": 546905404.0,
+        "p99": 598506036.0
+      },
+      "reinsurance": {
+        "cat_xs_attachment_usd": 5000000,
+        "cat_xs_limit_usd": 45000000,
+        "ri_recovery_at_p99": 45000000,
+        "ri_recovery_at_p90": 45000000,
+        "treaty_exhausted_p99": true,
+        "treaty_exhausted_p90": true,
+        "net_insurer_pml_99": 553506036.0
+      }
+    },
+    "supply_chain": {
+      "scenario": "Supply Chain Software Compromise",
+      "real_world_basis": "SolarWinds 2020, MOVEit 2023 ($1B+, 2,600 orgs), XZ Utils 2024",
+      "target_vendors": [
+        "Fiserv",
+        "FIS",
+        "Jack Henry",
+        "Unknown"
+      ],
+      "n_affected_policies": 1038,
+      "pct_portfolio": 0.692,
+      "avg_discovery_lag_days": 212,
+      "expected_loss_usd": 1503063694.0,
+      "pml_90_usd": 1970950016.0,
+      "pml_99_usd": 2148560763.0,
+      "max_scenario_usd": 2404016989.0,
+      "loss_distribution_summary": {
+        "p50": 1500749542.0,
+        "p75": 1794712973.0,
+        "p90": 1970950016.0,
+        "p95": 2046552170.0,
+        "p99": 2148560763.0
+      },
+      "reinsurance": {
+        "cat_xs_attachment_usd": 5000000,
+        "cat_xs_limit_usd": 45000000,
+        "ri_recovery_at_p99": 45000000,
+        "ri_recovery_at_p90": 45000000,
+        "treaty_exhausted_p99": true,
+        "treaty_exhausted_p90": true,
+        "net_insurer_pml_99": 2103560763.0
+      }
+    },
+    "critical_infra": {
+      "scenario": "Critical Infrastructure Attack",
+      "real_world_basis": "Colonial Pipeline 2021, CISA FS-ISAC Scenarios, US Treasury Section 9",
+      "target_sectors": [
+        "Payment Processor",
+        "Retail Bank",
+        "Regional Bank",
+        "Broker-Dealer",
+        "Community Bank"
+      ],
+      "n_affected_policies": 655,
+      "pct_portfolio": 0.437,
+      "expected_loss_usd": 5700998453.0,
+      "pml_90_usd": 6458225384.0,
+      "pml_99_usd": 6776596072.0,
+      "max_scenario_usd": 7049502561.0,
+      "loss_distribution_summary": {
+        "p50": 5780965794.0,
+        "p75": 6206213986.0,
+        "p90": 6458225384.0,
+        "p95": 6580353722.0,
+        "p99": 6776596072.0
+      },
+      "reinsurance": {
+        "cat_xs_attachment_usd": 5000000,
+        "cat_xs_limit_usd": 45000000,
+        "ri_recovery_at_p99": 45000000,
+        "ri_recovery_at_p90": 45000000,
+        "treaty_exhausted_p99": true,
+        "treaty_exhausted_p90": true,
+        "net_insurer_pml_99": 6731596072.0
+      }
+    }
+  }
+}

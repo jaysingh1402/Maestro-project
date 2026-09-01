@@ -1,0 +1,11 @@
+feature,engineering_note
+exposure_size_score,"Merged log_revenue, log_assets, and log_employees."
+cyber_control_score,"Merged NIST maturity, MFA coverage, EDR, and SOC."
+control_gap_score,Inverted cyber_control_score for risk loading.
+vendor_control_pressure,Merged vendor count and NIST maturity.
+regulatory_findings_pressure,"Merged n_findings, n_high_sev, and n_med_sev."
+critical_operations_score,"Merged trading desk, payments, and custodial AUM flags."
+coverage_structure_score,Merged limit and retention structure.
+prior_incident_score,Log-scaled prior incident count.
+repeat_offender,Flag for prior_incidents_3yr >= 2.
+hybrid_cloud_flag,Flags hybrid cloud due to observed loss differentiation.

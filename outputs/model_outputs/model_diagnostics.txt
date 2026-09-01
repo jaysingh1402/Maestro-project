@@ -1,0 +1,55 @@
+Cyber Frequency-Severity Pure Premium Template
+================================================
+
+Source features: C:\Users\jaisi\Desktop\Internships\Maestro Internship\Maestro_Cyber-main\data\09_cyber_pricing_features.csv
+Rows: 1,500
+Train rows: 1,111
+Test rows: 389
+
+Frequency model
+---------------
+Model: logistic regression implemented in NumPy, calibrated to portfolio base rate.
+Target: had_claim
+Diagnostic action threshold: 0.20
+Train claim rate: 0.1764
+Test claim rate: 0.1388
+Average test predicted probability: 0.1734
+Train accuracy: 0.6949
+Train precision: 0.2773
+Train recall: 0.4541
+Test accuracy: 0.7147
+Test precision: 0.2233
+Test recall: 0.4259
+
+Severity model
+--------------
+Model: Actuarial Gamma GLM severity model on positive-loss claims.
+Target: total_loss where total_loss > 0
+Positive-loss train rows: 196
+Positive-claim severity MAE on test: 2,647,839.68
+
+Pricing formula
+---------------
+Expected Claim Frequency = predicted_claim_probability * exposure_years
+Pure Premium = Expected Claim Frequency * Expected Claim Severity
+Technical Premium Template = Pure Premium / (1 - total_load)
+
+Loads used for template
+-----------------------
+Expense load: 25%
+Profit load: 10%
+Cyber catastrophe/systemic load: 12%
+Reinsurance load: 8%
+Total load: 55%
+
+Portfolio averages
+------------------
+Average current premium: 15,998,649.64
+Average pure premium: 277,206.89
+Average technical premium template: 616,015.30
+
+Important caution
+-----------------
+This is a first-pass pricing template, not a production actuarial model.
+Next iteration should add cross-validation, calibration plots, model monitoring,
+and separate BI frequency/severity logic before using indications commercially.

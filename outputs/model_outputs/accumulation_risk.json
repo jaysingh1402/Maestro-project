@@ -1,0 +1,303 @@
+{
+  "portfolio_summary": {
+    "n_policies": 1500,
+    "total_tiv_usd": 55780000000.0,
+    "total_premium": 23997974463.0
+  },
+  "hhi_scores": {
+    "cloud_provider_hhi": 0.2031,
+    "vendor_hhi": 0.2033,
+    "geographic_hhi": 0.1691,
+    "sector_hhi": 0.1059,
+    "interpretation": "HHI < 0.15: Diversified | 0.15-0.25: Moderate | >0.25: Concentrated"
+  },
+  "cloud_concentration": [
+    {
+      "group": "On-Prem",
+      "n_policies": 317,
+      "total_tiv_usd": 13876000000.0,
+      "pct_policies": 0.2113,
+      "pct_tiv": 0.2488,
+      "mfl_usd": 11100800000.0
+    },
+    {
+      "group": "GCP",
+      "n_policies": 281,
+      "total_tiv_usd": 10829000000.0,
+      "pct_policies": 0.1873,
+      "pct_tiv": 0.1941,
+      "mfl_usd": 8663200000.0
+    },
+    {
+      "group": "Azure",
+      "n_policies": 308,
+      "total_tiv_usd": 10820000000.0,
+      "pct_policies": 0.2053,
+      "pct_tiv": 0.194,
+      "mfl_usd": 8656000000.0
+    },
+    {
+      "group": "Hybrid",
+      "n_policies": 275,
+      "total_tiv_usd": 10274000000.0,
+      "pct_policies": 0.1833,
+      "pct_tiv": 0.1842,
+      "mfl_usd": 8219200000.0
+    },
+    {
+      "group": "AWS",
+      "n_policies": 319,
+      "total_tiv_usd": 9981000000.0,
+      "pct_policies": 0.2127,
+      "pct_tiv": 0.1789,
+      "mfl_usd": 7984800000.0
+    }
+  ],
+  "vendor_concentration": [
+    {
+      "group": "Unknown",
+      "n_policies": 695,
+      "total_tiv_usd": 21446000000.0,
+      "pct_policies": 0.4633,
+      "pct_tiv": 0.3845,
+      "mfl_usd": 17156800000.0
+    },
+    {
+      "group": "FIS",
+      "n_policies": 120,
+      "total_tiv_usd": 6016000000.0,
+      "pct_policies": 0.08,
+      "pct_tiv": 0.1079,
+      "mfl_usd": 4812800000.0
+    },
+    {
+      "group": "In-House",
+      "n_policies": 117,
+      "total_tiv_usd": 5662000000.0,
+      "pct_policies": 0.078,
+      "pct_tiv": 0.1015,
+      "mfl_usd": 4529600000.0
+    },
+    {
+      "group": "Temenos",
+      "n_policies": 129,
+      "total_tiv_usd": 5405000000.0,
+      "pct_policies": 0.086,
+      "pct_tiv": 0.0969,
+      "mfl_usd": 4324000000.0
+    },
+    {
+      "group": "Fiserv",
+      "n_policies": 114,
+      "total_tiv_usd": 4761000000.0,
+      "pct_policies": 0.076,
+      "pct_tiv": 0.0854,
+      "mfl_usd": 3808800000.0
+    },
+    {
+      "group": "Other",
+      "n_policies": 111,
+      "total_tiv_usd": 4665000000.0,
+      "pct_policies": 0.074,
+      "pct_tiv": 0.0836,
+      "mfl_usd": 3732000000.0
+    },
+    {
+      "group": "Jack Henry",
+      "n_policies": 109,
+      "total_tiv_usd": 4006000000.0,
+      "pct_policies": 0.0727,
+      "pct_tiv": 0.0718,
+      "mfl_usd": 3204800000.0
+    },
+    {
+      "group": "Finastra",
+      "n_policies": 105,
+      "total_tiv_usd": 3819000000.0,
+      "pct_policies": 0.07,
+      "pct_tiv": 0.0685,
+      "mfl_usd": 3055200000.0
+    }
+  ],
+  "geo_concentration": [
+    {
+      "group": "West",
+      "n_policies": 269,
+      "total_tiv_usd": 10710000000.0,
+      "pct_policies": 0.1793,
+      "pct_tiv": 0.192,
+      "mfl_usd": 8568000000.0
+    },
+    {
+      "group": "National",
+      "n_policies": 247,
+      "total_tiv_usd": 10342000000.0,
+      "pct_policies": 0.1647,
+      "pct_tiv": 0.1854,
+      "mfl_usd": 8273600000.0
+    },
+    {
+      "group": "Northeast",
+      "n_policies": 240,
+      "total_tiv_usd": 9807000000.0,
+      "pct_policies": 0.16,
+      "pct_tiv": 0.1758,
+      "mfl_usd": 7845600000.0
+    },
+    {
+      "group": "Southeast",
+      "n_policies": 231,
+      "total_tiv_usd": 9119000000.0,
+      "pct_policies": 0.154,
+      "pct_tiv": 0.1635,
+      "mfl_usd": 7295200000.0
+    },
+    {
+      "group": "Southwest",
+      "n_policies": 271,
+      "total_tiv_usd": 8307000000.0,
+      "pct_policies": 0.1807,
+      "pct_tiv": 0.1489,
+      "mfl_usd": 6645600000.0
+    },
+    {
+      "group": "Midwest",
+      "n_policies": 242,
+      "total_tiv_usd": 7495000000.0,
+      "pct_policies": 0.1613,
+      "pct_tiv": 0.1344,
+      "mfl_usd": 5996000000.0
+    }
+  ],
+  "sector_concentration": [
+    {
+      "group": "National Bank",
+      "n_policies": 88,
+      "total_tiv_usd": 10600000000.0,
+      "pct_policies": 0.0587,
+      "pct_tiv": 0.19,
+      "mfl_usd": 8480000000.0
+    },
+    {
+      "group": "Community Bank",
+      "n_policies": 283,
+      "total_tiv_usd": 8128000000.0,
+      "pct_policies": 0.1887,
+      "pct_tiv": 0.1457,
+      "mfl_usd": 6502400000.0
+    },
+    {
+      "group": "Insurance Carrier",
+      "n_policies": 126,
+      "total_tiv_usd": 6244000000.0,
+      "pct_policies": 0.084,
+      "pct_tiv": 0.1119,
+      "mfl_usd": 4995200000.0
+    },
+    {
+      "group": "Regional Bank",
+      "n_policies": 243,
+      "total_tiv_usd": 4973000000.0,
+      "pct_policies": 0.162,
+      "pct_tiv": 0.0892,
+      "mfl_usd": 3978400000.0
+    },
+    {
+      "group": "Investment Bank",
+      "n_policies": 49,
+      "total_tiv_usd": 4579000000.0,
+      "pct_policies": 0.0327,
+      "pct_tiv": 0.0821,
+      "mfl_usd": 3663200000.0
+    },
+    {
+      "group": "Broker-Dealer",
+      "n_policies": 129,
+      "total_tiv_usd": 4014000000.0,
+      "pct_policies": 0.086,
+      "pct_tiv": 0.072,
+      "mfl_usd": 3211200000.0
+    },
+    {
+      "group": "Hedge Fund",
+      "n_policies": 84,
+      "total_tiv_usd": 3225000000.0,
+      "pct_policies": 0.056,
+      "pct_tiv": 0.0578,
+      "mfl_usd": 2580000000.0
+    },
+    {
+      "group": "Fintech-Lending",
+      "n_policies": 111,
+      "total_tiv_usd": 3115000000.0,
+      "pct_policies": 0.074,
+      "pct_tiv": 0.0558,
+      "mfl_usd": 2492000000.0
+    },
+    {
+      "group": "Credit Union",
+      "n_policies": 104,
+      "total_tiv_usd": 3054000000.0,
+      "pct_policies": 0.0693,
+      "pct_tiv": 0.0548,
+      "mfl_usd": 2443200000.0
+    },
+    {
+      "group": "Custodian Bank",
+      "n_policies": 38,
+      "total_tiv_usd": 3000000000.0,
+      "pct_policies": 0.0253,
+      "pct_tiv": 0.0538,
+      "mfl_usd": 2400000000.0
+    },
+    {
+      "group": "Asset Manager",
+      "n_policies": 142,
+      "total_tiv_usd": 2619000000.0,
+      "pct_policies": 0.0947,
+      "pct_tiv": 0.047,
+      "mfl_usd": 2095200000.0
+    },
+    {
+      "group": "Fintech-Payments",
+      "n_policies": 103,
+      "total_tiv_usd": 2229000000.0,
+      "pct_policies": 0.0687,
+      "pct_tiv": 0.04,
+      "mfl_usd": 1783200000.0
+    }
+  ],
+  "accumulation_risk": {
+    "ri_flag_threshold": 0.236404,
+    "n_policies_flagged": 150,
+    "pct_flagged": 0.1,
+    "band_distribution": {
+      "Low": 375,
+      "Moderate": 376,
+      "High": 375,
+      "Extreme": 374
+    }
+  },
+  "cloud_benchmark_vs_portfolio": {
+    "AWS": {
+      "benchmark_pct": 0.32,
+      "portfolio_pct": 0.1789
+    },
+    "Azure": {
+      "benchmark_pct": 0.23,
+      "portfolio_pct": 0.194
+    },
+    "GCP": {
+      "benchmark_pct": 0.11,
+      "portfolio_pct": 0.1941
+    },
+    "Hybrid": {
+      "benchmark_pct": 0.21,
+      "portfolio_pct": 0.1842
+    },
+    "Private": {
+      "benchmark_pct": 0.13,
+      "portfolio_pct": 0.0
+    }
+  }
+}

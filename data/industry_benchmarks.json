@@ -1,0 +1,163 @@
+{
+  "_source_note": "Compiled from Verizon DBIR 2024, IBM Cost of a Data Breach Report 2024, Coalition Cyber Insurance Index Q3 2024, and CrowdStrike Global Threat Report 2024. All figures are publicly available industry estimates.",
+  "last_updated": "2024",
+  "claim_frequency_by_sector": {
+    "Financial Services": 0.182,
+    "Healthcare": 0.147,
+    "Technology": 0.163,
+    "Manufacturing": 0.098,
+    "Retail": 0.125,
+    "Education": 0.134,
+    "Energy & Utilities": 0.112,
+    "Government": 0.108,
+    "Insurance": 0.095,
+    "Professional Services": 0.141
+  },
+  "avg_breach_cost_usd": {
+    "Financial Services": 6080000,
+    "Healthcare": 9770000,
+    "Technology": 4880000,
+    "Manufacturing": 4350000,
+    "Retail": 3480000,
+    "Energy": 4720000,
+    "Education": 3400000,
+    "Global_Average": 4880000,
+    "_source": "IBM Cost of a Data Breach Report 2024"
+  },
+  "attack_type_frequency_pct": {
+    "Ransomware": 0.32,
+    "Data_Breach_Exfiltration": 0.28,
+    "Business_Email_Compromise": 0.18,
+    "DDoS": 0.09,
+    "Insider_Threat": 0.08,
+    "Supply_Chain": 0.05,
+    "_source": "Verizon DBIR 2024"
+  },
+  "annual_frequency_trend": {
+    "2020_to_2021": 0.151,
+    "2021_to_2022": 0.182,
+    "2022_to_2023": 0.127,
+    "2023_to_2024_est": 0.138,
+    "avg_5yr_compound": 0.140,
+    "_source": "Coalition Cyber Insurance Index 2024, CrowdStrike Global Threat Report 2024"
+  },
+  "ransomware_specifics": {
+    "avg_ransom_demand_usd": 1540000,
+    "avg_downtime_days": 21,
+    "pct_victims_paying_ransom": 0.46,
+    "avg_total_recovery_cost_usd": 1850000,
+    "avg_detection_lag_days": 197,
+    "_source": "IBM X-Force 2024, Coveware Q4 2024"
+  },
+  "supply_chain_attack_stats": {
+    "avg_affected_orgs_per_campaign": 1800,
+    "avg_discovery_lag_days": 212,
+    "avg_loss_per_affected_org_usd": 185000,
+    "notable_2023_moveit_victims": 2600,
+    "_source": "Verizon DBIR 2024, SecurityScorecard"
+  },
+  "cloud_exposure_concentration": {
+    "pct_enterprises_on_aws": 0.32,
+    "pct_enterprises_on_azure": 0.23,
+    "pct_enterprises_on_gcp": 0.11,
+    "pct_multi_cloud": 0.21,
+    "pct_private_cloud": 0.13,
+    "_source": "Flexera State of the Cloud Report 2024"
+  },
+  "loss_ratio_benchmarks": {
+    "cyber_market_2021": 0.79,
+    "cyber_market_2022": 0.73,
+    "cyber_market_2023": 0.65,
+    "cyber_market_2024_est": 0.58,
+    "_source": "AM Best, Fitch Ratings 2024"
+  },
+  "bi_loss_share_of_total": {
+    "ransomware": 0.62,
+    "data_breach": 0.18,
+    "bec": 0.04,
+    "insider_threat": 0.22,
+    "ddos": 0.55,
+    "_source": "NetDiligence 2024 Cyber Claims Study"
+  },
+  "reinsurance_market": {
+    "typical_cat_xl_attachment_usd": 5000000,
+    "typical_cat_xl_limit_usd": 50000000,
+    "typical_quota_share_cession_pct": 0.30,
+    "cyber_cat_rir_2024": 0.12,
+    "_source": "Guy Carpenter Cyber Market Outlook 2024"
+  },
+  "notable_events": [
+    {
+      "year": 2017,
+      "event": "WannaCry Ransomware Campaign",
+      "cause": "Ransomware",
+      "estimated_loss_usd": 6000000000,
+      "affected_organizations": 200000,
+      "attacker": "Lazarus Group (DPRK)"
+    },
+    {
+      "year": 2017,
+      "event": "NotPetya / Petya Supply Chain Attack",
+      "cause": "Supply Chain",
+      "estimated_loss_usd": 10000000000,
+      "affected_organizations": 12500,
+      "attacker": "Sandworm (Russia GRU)"
+    },
+    {
+      "year": 2020,
+      "event": "SolarWinds Orion Supply Chain Compromise",
+      "cause": "Supply Chain",
+      "estimated_loss_usd": 90000000,
+      "affected_organizations": 18000,
+      "attacker": "Cozy Bear (Russia SVR)"
+    },
+    {
+      "year": 2021,
+      "event": "Colonial Pipeline Ransomware",
+      "cause": "Ransomware",
+      "estimated_loss_usd": 34000000,
+      "affected_organizations": 1,
+      "attacker": "DarkSide"
+    },
+    {
+      "year": 2021,
+      "event": "REvil / Kaseya VSA Attack",
+      "cause": "Supply Chain / Ransomware",
+      "estimated_loss_usd": 70000000,
+      "affected_organizations": 1500,
+      "attacker": "REvil"
+    },
+    {
+      "year": 2021,
+      "event": "Microsoft Exchange Server Vulnerabilities",
+      "cause": "Software Vulnerability",
+      "estimated_loss_usd": 500000000,
+      "affected_organizations": 250000,
+      "attacker": "Hafnium (China)"
+    },
+    {
+      "year": 2023,
+      "event": "MOVEit Transfer SQL Injection",
+      "cause": "Supply Chain",
+      "estimated_loss_usd": 1000000000,
+      "affected_organizations": 2600,
+      "attacker": "Clop"
+    },
+    {
+      "year": 2024,
+      "event": "Change Healthcare Ransomware",
+      "cause": "Ransomware",
+      "estimated_loss_usd": 2000000000,
+      "affected_organizations": 900,
+      "attacker": "ALPHV / BlackCat"
+    },
+    {
+      "year": 2024,
+      "event": "CrowdStrike Falcon Update Outage",
+      "cause": "Software / IT Outage",
+      "estimated_loss_usd": 5400000000,
+      "affected_organizations": 8500000,
+      "attacker": "N/A (non-malicious)"
+    }
+  ]
+}

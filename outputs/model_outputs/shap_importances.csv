@@ -1,0 +1,49 @@
+Feature,SHAP_Importance
+high_sev_rate,0.021331085056448176
+regulatory_findings_pressure,0.021331085056448002
+critical_operations_score,0.018160389571893355
+payment_trading_flag,0.018160389571893327
+limit_to_revenue,0.018121056417595035
+coverage_structure_score,0.01812105641759489
+sub_sector_Fintech-Payments,0.016709278849649276
+sub_sector_Fintech-Lending,0.01670927884964866
+sub_sector_Custodian Bank,0.016484812903809678
+sub_sector_Credit Union,0.016484812903809595
+exposure_size_score,0.015036408753141177
+cyber_control_score,0.015036408753141049
+vendor_control_pressure,0.013289191580187846
+control_gap_score,0.013289191580187569
+sub_sector_Hedge Fund,0.012331841871576325
+sub_sector_Insurance Carrier,0.012331841871576254
+prior_incident_score,0.010753173487350994
+retention_ratio,0.010753173487350979
+sub_sector_Investment Bank,0.007462370122297752
+sub_sector_National Bank,0.007462370122297684
+region_Southeast,0.004276432116743474
+region_Northeast,0.004276432116743453
+hybrid_cloud_flag,0.004061880535896443
+repeat_offender,0.004061880535896395
+primary_regulator_OCC,0.0039022314595060117
+primary_regulator_SEC,0.003902231459505913
+region_West,0.0035404418232568404
+region_Southwest,0.003540441823256836
+cloud_provider_primary_On-Prem,0.0034313248682678777
+vendor_pressure_band_High,0.0034313248682678586
+core_banking_vendor_missing,0.0031996082300771145
+exposure_years,0.00319960823007657
+vendor_pressure_band_Moderate,0.0015395381915456093
+vendor_pressure_band_Low,0.0015395381915455984
+primary_regulator_FRB,0.0014062252206532917
+primary_regulator_NCUA,0.0014062252206532733
+primary_regulator_State,0.000997187725916268
+cloud_provider_primary_Azure,0.0009971877259162497
+region_National,0.0008307531911927284
+sub_sector_Regional Bank,0.0008307531911927275
+cloud_provider_primary_Hybrid,0.00038804220072831164
+cloud_provider_primary_GCP,0.0003880422007283092
+primary_regulator_FDIC,0.0
+primary_regulator_FINRA,0.0
+log_revenue,0.0
+sub_sector_Community Bank,0.0
+sub_sector_Broker-Dealer,0.0
+intercept,0.0
